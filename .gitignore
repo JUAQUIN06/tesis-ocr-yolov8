@@ -1,0 +1,34 @@
+# Entornos virtuales (pesan GB, se recrean con requirements.txt)
+venv/
+.venv/
+backend/.venv/
+
+# Dependencias de Node
+node_modules/
+frontend/node_modules/
+
+# Builds y resultados de pruebas
+frontend/dist/
+frontend/test-results/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.runtime/
+
+# Datos y modelos pesados (no van a GitHub)
+dataset/images/
+dataset/labels/
+*.pt
+*.onnx
+*.pth
+
+# Secretos y configuración local
+.env
+.env.local
+
+# Sistema
+.DS_Store
+Thumbs.db

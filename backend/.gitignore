@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.runtime/
+.env
+models/yolov8*-doclaynet.pt
+models/*.part
