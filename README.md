@@ -20,6 +20,18 @@ El reconocimiento es real: no usa coordenadas fijas ni plantillas. El sistema de
                                                └──────────────────────┘
 ```
 
+## Capturas
+
+| Carga del documento y filtros | Resultados de la evaluación |
+| --- | --- |
+| ![Carga de CV y filtros](docs/img/carga-filtros.png) | ![Resultados de evaluación](docs/img/resultados.png) |
+
+<p align="center">
+  <img src="docs/img/movil-resultados.png" alt="Vista móvil del sistema" width="300">
+  <br>
+  <sub>Diseño adaptable (vista móvil)</sub>
+</p>
+
 ## Requisitos
 
 | Componente | Versión |
@@ -78,6 +90,12 @@ python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
 # Terminal 2
 cd frontend
 npm run dev
+```
+
+**Opción C — script incluido** (desde cualquier carpeta):
+
+```bash
+./iniciarBackend.sh
 ```
 
 | Servicio | URL |
