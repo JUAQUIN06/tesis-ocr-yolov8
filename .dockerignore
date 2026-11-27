@@ -1,0 +1,13 @@
+
+.git
+.venv
+venv
+__pycache__
+**/__pycache__
+frontend/node_modules
+frontend/dist
+backend/.runtime
+backend/models/*.pt
+dataset
+entrenamiento
+.pytest_cache
