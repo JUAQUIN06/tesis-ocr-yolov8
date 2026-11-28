@@ -178,6 +178,7 @@ npm run test:integration # navegador + backend real
 
 - [`backend/README.md`](backend/README.md) — pipeline, contrato de la API, errores y configuración.
 - [`frontend/README.md`](frontend/README.md) — funcionalidades, estados de la evaluación y despliegue.
+- [`docs/DESPLIEGUE.md`](docs/DESPLIEGUE.md) — frontend en Vercel + backend en equipo propio con túnel de Cloudflare.
 
 ## Créditos y licencias
 
